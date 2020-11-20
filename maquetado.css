@@ -1,0 +1,68 @@
+
+/*sección de productos*/
+p {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+.title {
+    height: 43px;
+    line-height: 43px;
+    width: 400px;
+    background-color: yellow;
+    align-self: center;
+    text-align: center;
+    color: black;
+    margin: auto;
+    margin-top: 60px;
+}
+span {
+    font-weight: bold;
+}
+
+.index-container {
+    display: flex;
+}
+.profile {
+    padding-top: 23px;
+}
+/*sección de los slides*/
+.carousel-label {
+    height: 43px;
+    line-height: 43px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: green;
+    align-self: center;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.carousel-control-next:after
+{
+    padding-left: 80px;
+    content: '>';
+    font-size: 40px;
+    color: black;
+}
+.carousel-control-prev:after {
+    padding-right: 80px;
+    content: '<';
+    font-size: 40px;
+    color: black;
+}
+.charge {
+    margin: auto;
+    text-align: center;
+    text-justify: auto;
+}
+.budget {
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+
+}
